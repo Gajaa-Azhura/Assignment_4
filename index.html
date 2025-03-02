@@ -3,92 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment4</title>
+    <title>Assignment_4</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-pink-300">
-    <!-- Header -->
-    <header class="bg-gray-100 py-4 shadow-md fixed  top-0 w-full z-10">
-        <div class="container mx-auto px-4 flex justify-between items-center">
-            <!-- Logo -->
-            <p class="text-gray-800 text-xl font-bold font-sans">Web Amigo</p>
+<body class="bg-white justify-between items-center">
+  <!--Section nav-->
+  <header class="bg-transparent  shadow-md fixed h-20 top-0 w-full z-10">
+   
+   <h1 class="text-gray-600 text-2xl font-bold">Web Furnitore</h1>
+    <nav class="flex items-center justify-between  right-0">
+                <a href="#" class="text-white-600 bg-gray-200 rounded-md hover:text-violet-800">Home</a>
+                <a href="#" class="text-white-600 bg-gray-200 rounded-md hover:text-violet-800">About us</a>
+                <a href="#" class="text-white-600 bg-gray-200 rounded-md hover:text-violet-800">Services</a>
+                <a href="#" class="text-white-600 bg-gray-200 rounded-md hover:text-violet-800">profolio</a>
+                <a href="#" class="text-white-600 bg-gray-200 rounded-md hover:text-violet-800">drop down</a>
+                <a href="#" class="text-white-600 bg-gray-200 rounded-md hover:text-violet-800">contact</a>
+        <button class="bg-violet-500 text-white px-4 py-2 rounded-md hover:bg-violet-400 transition-colors duration-200">sign in</button>
+    </nav>
+  </header>
+
+  <!--hero section-->
+  <section class=" container bg-white text-gray-800 h-screen    gap-4">
+    <div class="flex items-center justify-center h-full ">
+      <div>
+        <h1 class="text-4xl">Web Furnitore</h1>
+        <p class="italic ">Web Furnitore is a furniture store that offers a wide range of furniture for your home. We have a wide range of furniture for your living room, bedroom, dining room, and office. <br>We also offer a wide range of furniture for your outdoor space. Our furniture is made from high-quality materials and is designed to last. We offer a wide range of styles and designs to suit your taste and budget. We also offer a range of services to help you find the perfect furniture for your home. We offer free delivery and assembly on all orders over $500.
+         <br> <buttom class=" text-gray-800 px-4 py-2 rounded-md border hover:bg-violet-400 transition-colors duration-200 absolute center">Shop now</buttom>
+    </div>
+   <div >
+    <img src="./Assets/vecteezy_living-room-interior-of-chalet-house-in-mountains_14750425.jpg" alt="hero image" class="w-full h-full">
+   </div>
     
-            <!-- Navigation -->
-            <nav class="flex items-center  top-0"> 
-                <a href="#" class="text-gray-300 hover:text-white transition-colors text-sm md:text-base px-3 py-2 rounded-md">Home</a>
-                <a href="#" class="text-gray-300 hover:text-white transition-colors text-sm md:text-base px-3 py-2 rounded-md">About</a>
-                <a href="#" class="text-gray-300 hover:text-white transition-colors text-sm md:text-base px-3 py-2 rounded-md">Services</a>
-                <a href="#" class="text-gray-300 hover:text-white transition-colors text-sm md:text-base px-3 py-2 rounded-md">Menu</a>
-                <div class="relative group">
-                    <button class="text-gray-300 hover:text-white transition-colors text-sm md:text-base px-3 py-2 rounded-md">Pages ▼</button>
-                    <div class="relative mt-2 w-48 bg-gray-900 text-white rounded-md shadow-lg py-2 hidden group-hover:block">
-                        <a href="contact.html" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-white text-sm">Contact</a>
+    </div>
+  </section>
+
+  <!--semi ction-->
+<section>
+  <div class="flex container" ">
+  <div class="flex flex-col">
+      <img src="./Assets/vecteezy_furniture-logo-vector-illustration-design-furniture-emblem_5160021.jpg" alt="discussion" class="w-96 h-96">
+  </div>
+  <div class="flex flex-col px-32 py-20">
+      <h1 class="whitespace-pre text-black text-4xl text-bold">Why our product?</h1>
+      <p class="block text-gray-600 text-lg text-semibold">Its beacuse we provide all the needs of the customers <br>we put their needs first and then we provide them with thier fasilities.</p>
+      <div class="flex">
+      <div class="flex flex-col"><br>
+          <img src="./Assets/love.png" alt="quality" class="w-6 h-8">
+          <h1 class="text-lg text-gray-600">Quality</h1>
+          <p>Quality is the must component in our product <br>which we show the differnce between the porducts and its lifespan</p>
+
+      </div>
+      <div class="flex flex-col"><br>
+          <img src="./Assets/save-money.png " alt="save-money" class="w-6 h-8">
+          <h1 class="text-lg text-gray-600">Low cost</h1>
+          <p>providing the product at a low cost and <br>high qality is the most prefernce components by the customers</p>
+      </div>
+      </div>
+  </div>
+</div>
+      
+</section>
+
+  <!--image gallery-->
+  <section class="container mx-auto px-4 py-20">
+    <p class="text-4xl text-center italic">Our products</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      
+      <div class="bg-gray-200 p-4">
+        <a href="product1.html"target="_blank"><img src="./Assets/12133.jpg" alt="placeholder" class="w-full h-full"></a>
+      </div>
+      <div class="bg-gray-200 p-4">
+        <a href="product2.html"target="_blank"><img src="./Assets/1610b5bb-c2bd-4628-aa70-bff9419dadf2.jpg" alt="placeholder" class="w-full h-full"></a>
+      </div>
+      <div class="bg-gray-200 p-4">
+        <a href="product3.html"target="_blank">  <img src="./Assets/18964.jpg" alt="placeholder" class="w-full h-full"></a>
+      </div>
+      <div class="bg-gray-200 p-4">
+        <a href="product4.html"target="_blank">  <img src="./Assets/1u2x_6lqv_140802.jpg" alt="placeholder" class="w-full h-full"></a>
+        </div>
+        <div class="bg-gray-200 p-4">';
+            <a href="product5.html"target="_blank"> <img src="./Assets/9507.jpg" alt="placeholder" class="w-full h-full"></a>
+          </div>
+          <div class="bg-gray-200 p-4">
+            <a href="product6.html"target="_blank">  <img src="./Assets/6868.jpg" alt="placeholder" class="w-full h-full"></a>
+            </div>
+    </div>
+  
+  </section>
+   
+  <!--team-->
+  <section class="bg-white py-12">
+    <div class="container mx-auto px-4">
+        <h2 class="text-2xl md:text-3xl font-semibold text-gray-800 text-center mb-8">
+            <span class="text-orange-500">Team Members</span> - Let’s Meet Our Team
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <!-- Card 1: Velvet Dawn -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-orange-500">
+                <img src="./Assets/Shinra Kusakabe - Fire Force Manga.jpeg" alt="Velvet Dawn" class="w-full h-64 object-cover">
+                <div class="p-4 text-center">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Shinra kisakabe</h3>
+                    
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-orange-500">
+                <img src="./Assets/Gojo Satoru.jpeg" alt="Crimson Vale" class="w-full h-64 object-cover">
+                <div class="p-4 text-center">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Gojo Satoru</h3>
+                  
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-orange-500">
+                <img src="./Assets/Liebe 🗿🚬 (1).jpeg" alt="Nova Drift" class="w-full h-64 object-cover">
+                <div class="p-4 text-center">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Liebie</h3>
+                    
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-orange-500">
+                <img src="./Assets/9f99fc73-5b45-46dd-abda-5ab7e8761d99.jpeg" alt="Blaze Storm" class="w-full h-64 object-cover">
+                <div class="p-4 text-center">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Gabi maru</h3>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+  <!--carosel-->
+  <section class="py-10">
+    <div class="container mx-auto px-5">
+        <h2 class="text-3xl text-gray-900 text-center mb-8">Our costumers</h2>
+        <div class="relative w-full max-w-4xl mx-auto">
+            <!-- Carousel Container -->
+            <div id="carousel" class="overflow-hidden rounded-lg shadow-md">
+                <div id="carouselItems" class="flex transition-transform duration-500 ease-in-out">
+                    <!-- Slide 1 -->
+                    <div class="min-w-full flex-shrink-0">
+                        <img src="./Assets/heart-rate.png" alt="Product 1" class="w-full h-32 items-center">
+                        <p class="text-gray-900 text-center py-4">Life line</p>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="min-w-full flex-shrink-0">
+                        <img src="./Assets/koala.png" alt="Product 2" class="w-full h-32 items-center">
+                        <p class="text-gray-900 text-center py-4">Koala Corp</p>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="min-w-full flex-shrink-0">
+                        <img src="./Assets/cyber-monday.png" alt="Product 3" class="w-full h-32 items-center">
+                        <p class="text-gray-900 text-center py-4">Cyber monday</p>
                     </div>
                 </div>
-                <button class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition-colors text-sm md:text-base">SignUp</button>
-            </nav>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button id="prevBtn" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75 text-black p-2 rounded-full shadow-md">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+            </button>
+            <button id="nextBtn" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75 text-black p-2 rounded-full shadow-md">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </button>
         </div>
-    </header>
-    <section class="container mx-auto px-4 py-20">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-screen">
-            <!-- Text Content -->
-            <div class="flex flex-col justify-center px-4">
-                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
-                    Better digital experience with<br><b>Web Amigo</b>
-                </h1>
-                <p class="text-gray-600 mt-4 text-lg">
-                    We are a team of talented designers making websites with Bootstrap.
-                </p>
-                <button class="bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-600 transition-colors text-base mt-6 w-fit">
-                    Get Started
-                </button>
-            </div>
-            <!-- Image -->
-            <div class="flex justify-center items-center px-4">
-                <img 
-                    src="/Assets/Premium Vector _ Astral travel out of body or reincarnation spiritual concept poster or card design template with levitated human body silhouette_ Vector eps 10 illustration.jpeg" 
-                    alt="hero" 
-                    class="w-full max-w-md h-auto object-cover"
-                >
-            </div>
-        </div>
-    </section >
-    <section class="container mx-auto px-4 py-20">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center min-h-screen">
-            <div class="flex justify-center items-center px-4">
-                <img 
-                    src="/Assets/9183daf9-130d-4077-89b2-4845c5896ba8.jpeg" 
-                    alt="hero" 
-                    class="w-full max-w-md h-auto object-cover"
-                >
-            </div>
-            <div class="md:w-1/2 mt-10 md:mt-0">
-                <h2 class="text-3xl font-bold text-gray-800">
-                    Voluptatem dignissimos provident quasi
-                </h2>
-                <p class="text-gray-600 mt-4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+    </div>
+</section>
     
-                <!-- Feature List -->
-                <div class="mt-6 space-y-4">
-                    <div class="flex items-start space-x-3">
-                        <span class="text-orange-500 text-2xl">✔</span>
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-800">Corporis voluptates sit</h3>
-                            <p class="text-gray-600">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip.</p>
-                        </div>
-                    </div>
-    
-                    <div class="flex items-start space-x-3">
-                        <span class="text-orange-500 text-2xl">✔</span>
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-800">Ullamco laboris nisi</h3>
-                            <p class="text-gray-600">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-                        </div>
-                    </div>
-                </div>
+  <!--footer-->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Logo & About -->
+        <div>
+          <h2 class="text-xl font-semibold">Web Furnitore</h2>
+          <p class="text-gray-400 mt-2"> page where you an purchase life time furniture</p>
         </div>
-    </section>
+        
+        <!-- Links -->
+        <div>
+          <h3 class="text-lg font-semibold">Quick Links</h3>
+          <ul class="mt-2 space-y-2">
+            <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">About</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Services</a></li>
+            <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+          </ul>
+        </div>
+        
+        <!-- Social Media -->
+        <div>
+          <h3 class="text-lg font-semibold">Follow Us</h3>
+          <div class="mt-2 flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white"><img src="Assets/social-media.png" alt="facebook logo" class="w-8 h-8"></a>
+            <a href="#" class="text-gray-400 hover:text-white"><img src="./Assets/twitter.png" alt="facebook logo" class="w-8 h-8"></a>
+            <a href="#" class="text-gray-400 hover:text-white"><img src="./Assets/social-media (1).png" alt="facebook logo" class="w-8 h-8"></a>
+            <a href="#" class="text-gray-400 hover:text-white"><img src="Assets/linkedin.png" alt="facebook logo" class="w-8 h-8"></a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Copyright -->
+      <div class="text-center text-gray-500 text-sm mt-6 border-t border-gray-700 pt-4">
+        &copy; 2025 Web Furnitore. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <script>
+    const carousel = document.getElementById('carouselItems');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    let slideIndex = 0;
+    const slideWidth = carousel.querySelector('.min-w-full').offsetWidth;
+
+    // Function to move slides
+    function moveSlide(direction) {
+        slideIndex += direction;
+        const totalSlides = carousel.children.length;
+        if (slideIndex < 0) slideIndex = totalSlides - 1;
+        if (slideIndex >= totalSlides) slideIndex = 0;
+        carousel.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
+    }
+
+    // Event listeners for buttons
+    prevBtn.addEventListener('click', () => moveSlide(-1));
+    nextBtn.addEventListener('click', () => moveSlide(1));
+
+    // Auto-slide every 3 seconds
+    let autoSlide = setInterval(() => moveSlide(1), 3000);
+
+    // Pause auto-slide on hover
+    carousel.parentElement.addEventListener('mouseover', () => clearInterval(autoSlide));
+    carousel.parentElement.addEventListener('mouseout', () => {
+        autoSlide = setInterval(() => moveSlide(1), 3000);
+    });
+
+    // Ensure carousel adjusts on window resize
+    window.addEventListener('resize', () => {
+        slideWidth = carousel.querySelector('.min-w-full').offsetWidth;
+        carousel.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
+    });
+</script>
 </body>
 </html>
